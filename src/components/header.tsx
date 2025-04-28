@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import Countdown from "@/components/CountdownFlow";
-import { ThemeToggle } from "@/components/theme-toggle";
 
 const Header = () => {
   return (
@@ -11,7 +10,7 @@ const Header = () => {
           WebkitTextStroke: "1px var(--o-accent-stroke)",
         }}
       >
-        <span>Time till' cook 001: {"  "}</span>
+        <span>Time till&apos; cook 001: {"  "}</span>
         <Countdown targetDate={new Date("2025-05-05")} />
       </div>
       <div className="flex flex-row items-center gap-4">
