@@ -1,0 +1,17 @@
+const Partners = () => {
+  return (
+    <div className="w-full mt-12 flex flex-col gap-4">
+      <div className="text-3xl font-bold uppercase">Partners</div>
+      <div className="grid grid-cols-6 gap-4">
+        <div className="w-full h-24 border-6 border-dotted border-o-accent"></div>
+        <div className="w-full h-24 border-6 border-dotted border-o-accent"></div>
+        <div className="w-full h-24 border-6 border-dotted border-o-accent"></div>
+        <div className="w-full h-24 border-6 border-dotted border-o-accent"></div>
+        <div className="w-full h-24 border-6 border-dotted border-o-accent"></div>
+        <div className="w-full h-24 border-6 border-dotted border-o-accent"></div>
+      </div>
+    </div>
+  );
+};
+
+export default Partners;
