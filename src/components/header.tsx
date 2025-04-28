@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="w-full flex items-center justify-between">
       <div
-        className="text-xl uppercase text-o-accent flex gap-3 items-center"
+        className="md:text-xl uppercase text-o-accent flex flex-col md:flex-row md:gap-3 md:items-center"
         style={{
           WebkitTextStroke: "1px var(--o-accent-stroke)",
         }}

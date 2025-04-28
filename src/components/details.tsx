@@ -14,18 +14,22 @@ const rewards: string[] = [
 
 const Details = () => {
   return (
-    <div className="w-full mt-16 flex md:flex-row md:justify-between md:items-start gap-16">
+    <div className="w-full mt-16 flex flex-col md:flex-row md:justify-between md:items-start gap-8 md:gap-16">
       <div className="flex-1 flex flex-col gap-4">
-        <div className="text-3xl font-bold uppercase">Info</div>
-        <ul>
+        <div className="text-md md:text-xl lg:text-2xl xl:text-3xl font-bold uppercase">
+          Info
+        </div>
+        <ul className="text-sm md:text-sm lg:text-md">
           {info.map((item) => (
             <li key={item}>{item}</li>
           ))}
         </ul>
       </div>
       <div className="flex-1 flex flex-col gap-4">
-        <div className="text-3xl font-bold uppercase">Rewards + Prizes</div>
-        <ul>
+        <div className="text-md md:text-xl lg:text-2xl xl:text-3xl font-bold uppercase">
+          Rewards + Prizes
+        </div>
+        <ul className="text-sm md:text-sm lg:text-md">
           {rewards.map((item) => (
             <li key={item}>{item}</li>
           ))}
