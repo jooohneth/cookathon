@@ -126,3 +126,15 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* Text selection styling */
+::selection {
+  background-color: var(--o-accent);
+  color: var(--foreground);
+}
+
+/* For Firefox */
+::-moz-selection {
+  background-color: var(--o-accent);
+  color: var(--foreground);
+}

@@ -16,7 +16,7 @@ const Header = () => {
       <div className="flex flex-row items-center gap-4">
         <Button
           size="lg"
-          className="text-lg font-semibold uppercase text-foreground bg-transparent border border-foreground hover:bg-transparent hover:border-o-accent-stroke hover:text-o-accent transition-colors duration-400"
+          className="text-lg font-semibold uppercase text-foreground bg-transparent border border-foreground hover:bg-transparent hover:border-o-accent hover:text-o-accent transition-colors duration-400"
         >
           Register
         </Button>

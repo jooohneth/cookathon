@@ -11,7 +11,7 @@ const Title = () => {
           height={0}
           className="w-8 h-8 md:w-12 md:h-12 lg:w-20 lg:h-20 xl:w-28 xl:h-28"
         />
-        <div className="flex gap-4 md:gap-8">
+        <div className="flex gap-4 md:gap-8 lg:gap-12 xl:gap-16">
           <div className="">The</div>
           <div className="">Cookathon</div>
         </div>
