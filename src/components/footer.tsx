@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="px-8 md:px-20 w-full my-8 flex flex-row justify-around md:justify-center items-center gap-25 font-medium text-2xl">
       <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
         <Image
-          src="/x.svg"
+          src="/sm/x.svg"
           alt="X"
           width={0}
           height={0}
@@ -14,7 +14,7 @@ const Footer = () => {
       </a>
       <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
         <Image
-          src="/tg.svg"
+          src="/sm/tg.svg"
           alt="Telegram"
           width={0}
           height={0}
@@ -27,7 +27,7 @@ const Footer = () => {
         rel="noopener noreferrer"
       >
         <Image
-          src="/yt.svg"
+          src="/sm/yt.svg"
           alt="Youtube"
           width={0}
           height={0}
