@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta property="twitter:image" content="/og.png" />
+      <meta property="twitter:image" content="https://cookathon.dev/og.png" />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:title" content="Cookathon" />
       <meta
@@ -28,14 +28,14 @@ export default function RootLayout({
         content="Mantle Network's flagship early-stage builder program"
       />
 
-      <meta property="og:image" content="/og.png" />
+      <meta property="og:image" content="https://cookathon.dev/og.png" />
       <meta property="og:site_name" content="Cookathon" />
       <meta property="og:title" content="Cookathon" />
       <meta
         property="og:description"
         content="Mantle Network's flagship early-stage builder program"
       />
-      <meta property="og:url" content="https://cookathon.xyz"></meta>
+      <meta property="og:url" content="https://cookathon.dev"></meta>
 
       <body className={`${geistMono.variable} antialiased`}>
         <ThemeProvider>{children}</ThemeProvider>
