@@ -6,7 +6,7 @@ const Partners = () => {
       <div className="text-md md:text-xl lg:text-2xl xl:text-3xl font-bold uppercase">
         Partners
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-6 gap-x-8 gap-y-0 lg:gap-y-4 lg:gap-x-16 items-center justify-center">
+      <div className="grid grid-cols-3 md:grid-cols-6 gap-x-8 gap-y-0 lg:gap-x-16 items-center justify-center">
         <div className="w-full h-16 md:h-24 flex items-center justify-center">
           <a href="https://privy.io" target="_blank" rel="noopener noreferrer">
             <Image
