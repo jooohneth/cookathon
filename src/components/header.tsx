@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import Countdown from "@/components/CountdownFlow";
 
@@ -17,6 +19,9 @@ const Header = () => {
         <Button
           size="lg"
           className="text-lg font-semibold uppercase text-foreground bg-transparent border border-foreground hover:bg-transparent hover:border-o-accent hover:text-o-accent transition-colors duration-400"
+          onClick={() => {
+            window.open("https://lu.ma/jpa1znvf", "_blank");
+          }}
         >
           Register
         </Button>
