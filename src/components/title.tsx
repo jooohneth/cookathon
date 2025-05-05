@@ -5,7 +5,7 @@ const Title = () => {
     <div className="mt-12 flex flex-col md:gap-4">
       <div className="w-full flex items-center justify-between uppercase text-4xl md:text-6xl lg:text-8xl xl:text-9xl font-bold">
         <Image
-          src="/logo.svg"
+          src="/cookathon.svg"
           alt="logo"
           width={0}
           height={0}
