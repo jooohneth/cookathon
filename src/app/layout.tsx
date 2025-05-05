@@ -20,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta property="twitter:image" content="https://cookathon.dev/og.png" />
+      <meta
+        property="twitter:image"
+        content="https://cookathon.dev/opengraph.png"
+      />
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:title" content="Cookathon" />
       <meta
@@ -28,7 +31,7 @@ export default function RootLayout({
         content="Mantle Network's flagship early-stage builder program"
       />
 
-      <meta property="og:image" content="https://cookathon.dev/og.png" />
+      <meta property="og:image" content="https://cookathon.dev/opengraph.png" />
       <meta property="og:site_name" content="Cookathon" />
       <meta property="og:title" content="Cookathon" />
       <meta
