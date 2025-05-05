@@ -1,8 +1,8 @@
 const info: string[] = [
-  "> Mantle Network's flagship early-stage builder program",
-  "> Monthly [May–Oct, 2025]",
+  "> Mantle's flagship hackathon",
+  "> Monthly [May-Oct, 2025]",
   "> Virtual",
-  "> $15K rewards per cook + partner prizes",
+  "> $15K in monthly prizes",
 ];
 
 const rewards: string[] = [
