@@ -14,7 +14,7 @@ const Partners = () => {
               alt="Privy"
               width={0}
               height={0}
-              className="w-40"
+              className="w-35"
             />
           </a>
         </div>
@@ -44,7 +44,7 @@ const Partners = () => {
               alt="Zerion"
               width={0}
               height={0}
-              className="w-40"
+              className="w-35"
             />
           </a>
         </div>
@@ -57,6 +57,21 @@ const Partners = () => {
             <Image
               src="/partners/omni.svg"
               alt="Omni"
+              width={0}
+              height={0}
+              className="w-35"
+            />
+          </a>
+        </div>
+        <div className="w-full h-16 md:h-24 flex items-center justify-center">
+          <a
+            href="https://www.thirdweb.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/partners/thirdweb.svg"
+              alt="Thirdweb"
               width={0}
               height={0}
               className="w-40"
@@ -74,7 +89,7 @@ const Partners = () => {
               alt="Airfoil"
               width={0}
               height={0}
-              className="w-20 md:w-30"
+              className="w-20 md:w-25"
             />
           </a>
         </div>
@@ -105,6 +120,36 @@ const Partners = () => {
               width={0}
               height={0}
               className="w-40"
+            />
+          </a>
+        </div>
+        <div className="w-full h-16 md:h-24 flex items-center justify-center">
+          <a
+            href="https://www.growthepie.xyz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/partners/growthepie.svg"
+              alt="GrowThePie"
+              width={0}
+              height={0}
+              className="mb-1 w-100"
+            />
+          </a>
+        </div>
+        <div className="w-full h-16 md:h-24 flex items-center justify-center">
+          <a
+            href="https://www.poap.fun/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/partners/poap.svg"
+              alt="POAP"
+              width={0}
+              height={0}
+              className="w-15 md:w-20 mb-1"
             />
           </a>
         </div>
