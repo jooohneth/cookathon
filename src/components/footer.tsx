@@ -9,7 +9,7 @@ const Footer = () => {
           alt="X"
           width={0}
           height={0}
-          className="w-6 h-6 md:w-7 md:h-7"
+          className="w-4 h-4 md:w-5 md:h-5"
         />
       </a>
       <a href="https://t.me/" target="_blank" rel="noopener noreferrer">
@@ -18,7 +18,7 @@ const Footer = () => {
           alt="Telegram"
           width={0}
           height={0}
-          className="w-8 h-8 md:w-10 md:h-10"
+          className="w-6 h-6 md:w-7 md:h-7"
         />
       </a>
       <a
@@ -31,7 +31,7 @@ const Footer = () => {
           alt="Youtube"
           width={0}
           height={0}
-          className="w-10 h-10 md:w-12 md:h-12"
+          className="w-6 h-6 md:w-8 md:h-8"
         />
       </a>
     </div>
