@@ -8,14 +8,17 @@ import { Separator } from "@/components/ui/separator";
 export default function Home() {
   return (
     <div className="font-mono min-h-screen">
-      <main className="flex-1 px-8 py-4 md:px-20 md:py-12 h-screen">
+      <main className="flex flex-col justify-around px-8 py-4 md:px-20 md:py-12 h-screen">
         <Header />
         <Title />
         <Details />
         <Partners />
       </main>
-      <Separator />
-      <Footer />
+
+      <div className="mt-10">
+        <Separator />
+        <Footer />
+      </div>
     </div>
   );
 }

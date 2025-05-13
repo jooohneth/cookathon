@@ -12,8 +12,8 @@ const Header = () => {
           WebkitTextStroke: "1px var(--o-accent-stroke)",
         }}
       >
-        <span>Time till&apos; cook 01: {"  "}</span>
-        <Countdown targetDate={new Date("2025-05-05T22:00:00Z")} />
+        <span>Time till MVP Submission: {"  "}</span>
+        <Countdown targetDate={new Date("2025-05-15T23:59:59Z")} />
       </div>
       <div className="flex flex-row items-center gap-4">
         <Button
