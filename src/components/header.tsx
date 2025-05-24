@@ -15,7 +15,6 @@ const Header = () => {
         <span>Time till winners announced: {"  "}</span>
         <Countdown targetDate={new Date("2025-05-25T23:59:59Z")} />
       </div>
-      gi
       <div className="flex flex-row items-center gap-4">
         <Button
           size="lg"
