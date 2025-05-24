@@ -12,9 +12,10 @@ const Header = () => {
           WebkitTextStroke: "1px var(--o-accent-stroke)",
         }}
       >
-        <span>Time till Final Submission: {"  "}</span>
-        <Countdown targetDate={new Date("2025-05-23T23:59:59Z")} />
+        <span>Time till winners announced: {"  "}</span>
+        <Countdown targetDate={new Date("2025-05-25T23:59:59Z")} />
       </div>
+      gi
       <div className="flex flex-row items-center gap-4">
         <Button
           size="lg"
