@@ -12,8 +12,8 @@ const Header = () => {
           WebkitTextStroke: "1px var(--o-accent-stroke)",
         }}
       >
-        <span>Round 2 Finalists Announcement: {"  "}</span>
-        <Countdown targetDate={new Date("2025-06-14T23:59:59Z")} />
+        <span>Round 3 Submissions Due: {"  "}</span>
+        <Countdown targetDate={new Date("2025-06-20T23:59:59Z")} />
       </div>
       <div className="flex flex-row items-center gap-4">
         <Button
